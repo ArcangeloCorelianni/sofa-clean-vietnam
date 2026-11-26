@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tam Thanh – Làng bích họa | Bất động sản & Lưu trú</title>
+<meta name="description" content="Làng bích họa Tam Thanh, Quảng Nam: bất động sản gần biển và Trang Villa – homestay cách làng bích họa 100 m. Liên hệ Zalo 0777 441 799.">
+<meta property="og:title" content="Tam Thanh – Bất động sản & Lưu trú tại làng bích họa">
+<meta property="og:description" content="Đất và nhà gần biển Tam Thanh; Trang Villa 4 phòng, có vườn, cách biển vài phút đi bộ.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#14262b;--muted:#5b6b70;--sea:#0f5c6e;--sea-d:#0a3f4c;--sand:#f6efe3;--sun:#e8a33d;--line:#e4dccb;--white:#fff}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{font-family:'Be Vietnam Pro',system-ui,sans-serif;color:var(--ink);background:var(--white);line-height:1.65}
+a{color:inherit}
+h1,h2,h3{font-family:'Playfair Display',Georgia,serif;line-height:1.2}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+/* nav */
+header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:60px;gap:12px}
+.brand{font-family:'Playfair Display',serif;font-weight:700;font-size:20px;color:var(--sea-d);text-decoration:none}
+nav ul{display:flex;gap:22px;list-style:none}
+nav a{text-decoration:none;font-size:14px;font-weight:500;color:var(--muted)}
+nav a:hover{color:var(--sea)}
+.lang{display:flex;gap:4px}
+.lang button{border:1px solid var(--line);background:#fff;padding:4px 9px;border-radius:6px;font:600 12px inherit;font-family:inherit;cursor:pointer;color:var(--muted)}
+.lang button.on{background:var(--sea);color:#fff;border-color:var(--sea)}
+@media(max-width:760px){nav{display:none}}
+/* hero */
+.hero{background:linear-gradient(160deg,var(--sea-d),var(--sea) 60%,#2b8a8f);color:#fff;padding:88px 0 96px;position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;right:-80px;bottom:-80px;width:340px;height:340px;border-radius:50%;background:radial-gradient(circle,rgba(232,163,61,.55),transparent 70%)}
+.eyebrow{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:#f4d9a6;font-weight:600;margin-bottom:14px}
+.hero h1{font-size:clamp(34px,6vw,58px);max-width:760px;margin-bottom:18px}
+.hero p{max-width:620px;font-size:18px;color:#d9ecee;margin-bottom:30px}
+.btns{display:flex;flex-wrap:wrap;gap:12px;position:relative;z-index:1}
+.btn{display:inline-block;padding:13px 24px;border-radius:999px;font-weight:600;text-decoration:none;font-size:15px;border:2px solid transparent}
+.btn.p{background:var(--sun);color:#2a1c04}
+.btn.p:hover{background:#f2b556}
+.btn.o{border-color:rgba(255,255,255,.6);color:#fff}
+.btn.o:hover{background:rgba(255,255,255,.12)}
+/* sections */
+section{padding:72px 0}
+section.alt{background:var(--sand)}
+.sh{margin-bottom:36px;max-width:640px}
+.sh .eyebrow{color:var(--sea)}
+.sh h2{font-size:clamp(26px,4vw,38px);margin-bottom:10px}
+.sh p{color:var(--muted)}
+.grid{display:grid;gap:20px}
+.g3{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.g2{grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+.card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:26px}
+.card h3{font-size:20px;margin-bottom:8px}
+.card p{color:var(--muted);font-size:15px}
+.ico{width:42px;height:42px;border-radius:12px;background:var(--sand);display:grid;place-items:center;font-size:20px;margin-bottom:14px}
+/* two tracks */
+.tracks{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:24px}
+.track{border-radius:20px;padding:34px;color:#fff;display:flex;flex-direction:column;gap:14px;min-height:360px}
+.track.re{background:linear-gradient(150deg,#14262b,#24474f)}
+.track.lo{background:linear-gradient(150deg,#0f5c6e,#2b8a8f)}
+.track .tag{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#f4d9a6;font-weight:600}
+.track h3{font-size:28px}
+.track p{color:#d9ecee}
+.track ul{list-style:none;display:grid;gap:8px;margin:4px 0 auto}
+.track li{padding-left:24px;position:relative;font-size:15px}
+.track li:before{content:"✓";position:absolute;left:0;color:var(--sun);font-weight:700}
+.track .btn{align-self:flex-start;margin-top:10px}
+/* villa */
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin:24px 0}
+.fact{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px;text-align:center}
+.fact b{display:block;font-family:'Playfair Display',serif;font-size:26px;color:var(--sea-d)}
+.fact span{font-size:13px;color:var(--muted)}
+.ph{border-radius:16px;min-height:260px;background:repeating-linear-gradient(45deg,#efe6d3,#efe6d3 12px,#f6efe3 12px,#f6efe3 24px);display:grid;place-items:center;color:var(--muted);font-size:14px;text-align:center;padding:20px;border:1px dashed #cdbf9f}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:36px;align-items:center}
+.list{list-style:none;display:grid;gap:10px;margin-top:14px}
+.list li{padding-left:26px;position:relative}
+.list li:before{content:"•";position:absolute;left:8px;color:var(--sun);font-weight:700}
+/* contact */
+.contact{background:var(--sea-d);color:#fff;text-align:center}
+.contact h2{font-size:clamp(28px,4vw,40px);margin-bottom:12px}
+.contact p{color:#d9ecee;max-width:560px;margin:0 auto 26px}
+.phone{font-family:'Playfair Display',serif;font-size:clamp(30px,6vw,46px);color:var(--sun);display:block;margin-bottom:22px;text-decoration:none}
+footer{padding:26px 0;font-size:13px;color:var(--muted);text-align:center;border-top:1px solid var(--line)}
+.note{font-size:13px;color:var(--muted);margin-top:14px}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#top">Tam Thanh</a>
+    <nav><ul>
+      <li><a href="#about" data-t="nav_about">Giới thiệu</a></li>
+      <li><a href="#realestate" data-t="nav_re">Bất động sản</a></li>
+      <li><a href="#stay" data-t="nav_stay">Lưu trú</a></li>
+      <li><a href="#visit" data-t="nav_visit">Tham quan</a></li>
+      <li><a href="#contact" data-t="nav_contact">Liên hệ</a></li>
+    </ul></nav>
+    <div class="lang" role="group" aria-label="Language">
+      <button data-l="vi" class="on">VI</button><button data-l="en">EN</button><button data-l="ru">RU</button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+<div class="hero"><div class="wrap">
+  <div class="eyebrow" data-t="h_eye">Làng bích họa Tam Thanh · Quảng Nam</div>
+  <h1 data-t="h_title">Sống chậm bên biển, giữa làng tranh tường rực màu</h1>
+  <p data-t="h_sub">Hai dịch vụ cùng một địa chỉ: bất động sản gần biển Tam Thanh và lưu trú tại Trang Villa, chỉ cách làng bích họa khoảng 100 m.</p>
+  <div class="btns">
+    <a class="btn p" href="#realestate" data-t="h_b1">Xem bất động sản</a>
+    <a class="btn o" href="#stay" data-t="h_b2">Đặt phòng Trang Villa</a>
+  </div>
+</div></div>
+
+<section id="about"><div class="wrap">
+  <div class="sh"><div class="eyebrow" data-t="a_eye">Giới thiệu</div>
+  <h2 data-t="a_title">Vì sao chọn Tam Thanh?</h2>
+  <p data-t="a_sub">Một làng biển yên bình đã trở thành điểm đến nghệ thuật, nơi tranh tường phủ khắp ngõ nhỏ và biển chỉ cách vài phút đi bộ.</p></div>
+  <div class="grid g3">
+    <div class="card"><div class="ico">🎨</div><h3 data-t="a1_t">Làng bích họa</h3><p data-t="a1_d">Những bức tranh tường trên nhà dân tạo nên một bảo tàng ngoài trời, thu hút du khách quanh năm.</p></div>
+    <div class="card"><div class="ico">🌊</div><h3 data-t="a2_t">Bãi biển &amp; thuyền thúng</h3><p data-t="a2_d">Biển sạch, nhịp sống làng chài và trải nghiệm đi thuyền thúng đặc trưng miền Trung.</p></div>
+    <div class="card"><div class="ico">☕</div><h3 data-t="a3_t">Quán cà phê &amp; ẩm thực</h3><p data-t="a3_d">Nhiều quán cà phê, hải sản tươi và món địa phương ngay trong làng.</p></div>
+  </div>
+</div></section>
+
+<section class="alt"><div class="wrap">
+  <div class="sh"><div class="eyebrow" data-t="t_eye">Dịch vụ của chúng tôi</div>
+  <h2 data-t="t_title">Hai lĩnh vực, một địa chỉ</h2></div>
+  <div class="tracks">
+    <div class="track re">
+      <div class="tag" data-t="re_tag">Mảng 1</div>
+      <h3 data-t="re_title">Bất động sản</h3>
+      <p data-t="re_d">Đất và nhà gần biển Tịnh Thủy – Tam Thanh, phù hợp ở, đầu tư hoặc làm homestay.</p>
+      <ul>
+        <li data-t="re_l1">Vị trí gần biển và làng bích họa</li>
+        <li data-t="re_l2">Tư vấn pháp lý, định giá và tiềm năng khai thác</li>
+        <li data-t="re_l3">Dẫn xem thực tế, hỗ trợ giao dịch</li>
+      </ul>
+      <a class="btn p" href="#realestate" data-t="more">Xem chi tiết</a>
+    </div>
+    <div class="track lo">
+      <div class="tag" data-t="lo_tag">Mảng 2</div>
+      <h3 data-t="lo_title">Cho thuê lưu trú</h3>
+      <p data-t="lo_d">Trang Villa: 4 phòng nghỉ, có vườn, view đẹp và phục vụ ăn uống ngay tại chỗ.</p>
+      <ul>
+        <li data-t="lo_l1">Cách làng bích họa khoảng 100 m</li>
+        <li data-t="lo_l2">Đi bộ vài phút ra biển</li>
+        <li data-t="lo_l3">Phòng đôi hai giường 800.000đ/đêm</li>
+      </ul>
+      <a class="btn p" href="#stay" data-t="more">Xem chi tiết</a>
+    </div>
+  </div>
+</div></section>
+
+<section id="realestate"><div class="wrap">
+  <div class="sh"><div class="eyebrow" data-t="re_tag">Mảng 1</div>
+  <h2 data-t="rs_title">Bất động sản gần biển Tam Thanh</h2>
+  <p data-t="rs_sub">Tìm hiểu vị trí, khoảng cách tới biển và các tiện ích xung quanh trước khi quyết định.</p></div>
+  <div class="two">
+    <div class="ph" data-t="rs_ph">Chèn ảnh vệ tinh / video vị trí bất động sản tại đây</div>
+    <div>
+      <h3 data-t="rs_h3">Lợi thế vị trí</h3>
+      <ul class="list">
+        <li data-t="rs_1">Gần bãi biển Tịnh Thủy và làng bích họa Tam Thanh</li>
+        <li data-t="rs_2">Khu du lịch đang phát triển, nhu cầu lưu trú cao</li>
+        <li data-t="rs_3">Phù hợp mua ở, đầu tư hoặc xây homestay cho thuê</li>
+        <li data-t="rs_4">Được tư vấn bởi chủ nhà đang kinh doanh lưu trú tại chỗ</li>
+      </ul>
+      <p class="note" data-t="rs_note">Giá, diện tích và pháp lý từng lô: vui lòng liên hệ để nhận thông tin cập nhật.</p>
+      <div class="btns" style="margin-top:20px"><a class="btn p" style="background:var(--sea);color:#fff" href="#contact" data-t="rs_cta">Nhận tư vấn bất động sản</a></div>
+    </div>
+  </div>
+</div></section>
+
+<section id="stay" class="alt"><div class="wrap">
+  <div class="sh"><div class="eyebrow" data-t="lo_tag">Mảng 2</div>
+  <h2 data-t="ss_title">Trang Villa – Homestay Tam Thanh</h2>
+  <p data-t="ss_sub">Villa có khu tiếp tân riêng, vườn xanh và không gian ăn uống, nằm ngay cạnh làng bích họa.</p></div>
+  <div class="facts">
+    <div class="fact"><b>4</b><span data-t="f1">phòng nghỉ</span></div>
+    <div class="fact"><b>800K</b><span data-t="f2">phòng đôi 2 giường / đêm</span></div>
+    <div class="fact"><b>100 m</b><span data-t="f3">tới làng bích họa</span></div>
+    <div class="fact"><b>5'</b><span data-t="f4">đi bộ ra biển</span></div>
+  </div>
+  <div class="two">
+    <div>
+      <h3 data-t="ss_h3">Tiện nghi</h3>
+      <ul class="list">
+        <li data-t="ss_1">Khu vườn và view thoáng, yên tĩnh</li>
+        <li data-t="ss_2">Phục vụ ăn uống tại villa</li>
+        <li data-t="ss_3">Khu reception, hỗ trợ du khách đặt tour và thuyền thúng</li>
+        <li data-t="ss_4">Vị trí đi bộ tới biển và làng bích họa</li>
+      </ul>
+      <div class="btns" style="margin-top:22px"><a class="btn p" style="background:var(--sea);color:#fff" href="#contact" data-t="ss_cta">Đặt phòng qua Zalo</a></div>
+    </div>
+    <div class="ph" data-t="ss_ph">Chèn ảnh / video Trang Villa tại đây</div>
+  </div>
+</div></section>
+
+<section id="visit"><div class="wrap">
+  <div class="sh"><div class="eyebrow" data-t="v_eye">Tham quan</div>
+  <h2 data-t="v_title">Cách đến &amp; mẹo du lịch</h2></div>
+  <div class="grid g3">
+    <div class="card"><div class="ico">🚗</div><h3 data-t="v1_t">Cách đến</h3><p data-t="v1_d">Làng Tam Thanh thuộc Quảng Nam, di chuyển bằng ô tô hoặc xe máy từ Đà Nẵng và Hội An. Tìm “Làng bích họa Tam Thanh” trên Google Maps.</p></div>
+    <div class="card"><div class="ico">🌅</div><h3 data-t="v2_t">Thời điểm đẹp</h3><p data-t="v2_d">Sáng sớm và chiều muộn: ánh sáng đẹp để chụp tranh tường, trời mát và biển ít người.</p></div>
+    <div class="card"><div class="ico">🎒</div><h3 data-t="v3_t">Nên mang theo</h3><p data-t="v3_d">Nón, kem chống nắng, giày dễ đi bộ và máy ảnh. Hỏi chủ nhà về giờ thuyền thúng và quán ăn gần nhất.</p></div>
+  </div>
+  <p style="margin-top:22px"><a href="https://www.google.com/maps/search/L%C3%A0ng+b%C3%ADch+h%E1%BB%8Da+Tam+Thanh" target="_blank" rel="noopener" data-t="v_map" style="color:var(--sea);font-weight:600">Mở bản đồ Google Maps →</a></p>
+</div></section>
+
+<section id="contact" class="contact"><div class="wrap">
+  <h2 data-t="c_title">Liên hệ trực tiếp chủ nhà</h2>
+  <p data-t="c_sub">Gọi hoặc nhắn Zalo để hỏi về bất động sản hoặc đặt phòng Trang Villa.</p>
+  <a class="phone" href="tel:0777441799">0777 441 799</a>
+  <div class="btns" style="justify-content:center">
+    <a class="btn p" href="https://zalo.me/0777441799" target="_blank" rel="noopener">Zalo</a>
+    <a class="btn o" href="tel:0777441799" data-t="c_call">Gọi ngay</a>
+  </div>
+</div></section>
+</main>
+
+<footer><div class="wrap"><span data-t="foot">© 2026 Tam Thanh · Bất động sản &amp; Lưu trú · Làng bích họa Tam Thanh, Quảng Nam</span></div></footer>
+
+<script>
+var T={
+vi:{},
+en:{
+nav_about:"About",nav_re:"Real estate",nav_stay:"Stay",nav_visit:"Visit",nav_contact:"Contact",
+h_eye:"Tam Thanh Mural Village · Quang Nam",h_title:"Slow living by the sea, inside a village of colorful murals",
+h_sub:"Two services, one address: real estate near Tam Thanh beach and Trang Villa lodging, about 100 m from the mural village.",
+h_b1:"View real estate",h_b2:"Book Trang Villa",
+a_eye:"About",a_title:"Why Tam Thanh?",a_sub:"A quiet seaside village turned art destination, with murals on every lane and the beach a few minutes' walk away.",
+a1_t:"Mural village",a1_d:"Murals painted on local homes make an open-air gallery that draws visitors all year.",
+a2_t:"Beach & basket boats",a2_d:"Clean beach, fishing-village life and the traditional central Vietnam basket boat ride.",
+a3_t:"Cafés & food",a3_d:"Cafés, fresh seafood and local dishes right in the village.",
+t_eye:"Our services",t_title:"Two businesses, one address",
+re_tag:"Part 1",re_title:"Real estate",re_d:"Land and houses near Tinh Thuy – Tam Thanh beach, suited to living, investing or running a homestay.",
+re_l1:"Close to the beach and mural village",re_l2:"Legal, valuation and income-potential advice",re_l3:"Site visits and transaction support",
+more:"See details",lo_tag:"Part 2",lo_title:"Lodging for rent",lo_d:"Trang Villa: 4 rooms, garden, nice views and on-site food and drink.",
+lo_l1:"About 100 m from the mural village",lo_l2:"A few minutes' walk to the beach",lo_l3:"Double room, two beds: 800,000 VND/night",
+rs_title:"Real estate near Tam Thanh beach",rs_sub:"Check the location, distance to the sea and nearby amenities before you decide.",
+rs_ph:"Add satellite map / property location video here",rs_h3:"Location advantages",
+rs_1:"Near Tinh Thuy beach and Tam Thanh mural village",rs_2:"Growing tourist area with strong demand for stays",
+rs_3:"Good for living, investing or building a rental homestay",rs_4:"Advice from an owner who runs lodging on site",
+rs_note:"Price, area and legal status of each plot: contact us for current information.",rs_cta:"Get real estate advice",
+ss_title:"Trang Villa – Tam Thanh Homestay",ss_sub:"A villa with its own reception, green garden and dining area, right next to the mural village.",
+f1:"rooms",f2:"double room, 2 beds / night",f3:"to the mural village",f4:"walk to the beach",
+ss_h3:"Amenities",ss_1:"Garden and open, quiet views",ss_2:"Food and drink served at the villa",
+ss_3:"Reception to help with tours and basket boats",ss_4:"Walking distance to beach and murals",ss_cta:"Book via Zalo",ss_ph:"Add Trang Villa photos / video here",
+v_eye:"Visit",v_title:"Getting here & travel tips",
+v1_t:"Getting here",v1_d:"Tam Thanh is in Quang Nam, reachable by car or motorbike from Da Nang and Hoi An. Search “Tam Thanh Mural Village” on Google Maps.",
+v2_t:"Best time",v2_d:"Early morning and late afternoon: soft light for photos, cooler weather and a quieter beach.",
+v3_t:"What to bring",v3_d:"Hat, sunscreen, walking shoes and a camera. Ask your host about basket boat times and nearby eateries.",
+v_map:"Open Google Maps →",c_title:"Contact the owner directly",c_sub:"Call or message on Zalo about real estate or to book Trang Villa.",c_call:"Call now",
+foot:"© 2026 Tam Thanh · Real estate & lodging · Tam Thanh Mural Village, Quang Nam"},
+ru:{
+nav_about:"О деревне",nav_re:"Недвижимость",nav_stay:"Проживание",nav_visit:"Посещение",nav_contact:"Контакты",
+h_eye:"Деревня муралов Там Тхань · Куангнам",h_title:"Неспешная жизнь у моря в деревне ярких муралов",
+h_sub:"Два направления по одному адресу: недвижимость у пляжа Там Тхань и проживание в Trang Villa, примерно в 100 м от деревни муралов.",
+h_b1:"Смотреть недвижимость",h_b2:"Забронировать Trang Villa",
+a_eye:"О деревне",a_title:"Почему Там Тхань?",a_sub:"Тихая приморская деревня стала арт-направлением: муралы на каждой улочке, пляж в нескольких минутах пешком.",
+a1_t:"Деревня муралов",a1_d:"Росписи на домах жителей образуют галерею под открытым небом, популярную круглый год.",
+a2_t:"Пляж и корзиночные лодки",a2_d:"Чистый пляж, жизнь рыбацкой деревни и традиционная прогулка на корзиночной лодке.",
+a3_t:"Кафе и еда",a3_d:"Кафе, свежие морепродукты и местные блюда прямо в деревне.",
+t_eye:"Наши услуги",t_title:"Два направления, один адрес",
+re_tag:"Направление 1",re_title:"Недвижимость",re_d:"Земля и дома у пляжа Тинь Тхюи – Там Тхань: для жизни, инвестиций или хоумстея.",
+re_l1:"Рядом с пляжем и деревней муралов",re_l2:"Консультации по праву, оценке и доходности",re_l3:"Показ объектов и сопровождение сделки",
+more:"Подробнее",lo_tag:"Направление 2",lo_title:"Аренда жилья",lo_d:"Trang Villa: 4 номера, сад, красивый вид, питание на месте.",
+lo_l1:"Около 100 м до деревни муралов",lo_l2:"Несколько минут пешком до пляжа",lo_l3:"Двухместный номер, две кровати: 800 000 VND/ночь",
+rs_title:"Недвижимость у пляжа Там Тхань",rs_sub:"Оцените расположение, расстояние до моря и инфраструктуру перед решением.",
+rs_ph:"Добавьте спутниковую карту / видео объекта",rs_h3:"Преимущества расположения",
+rs_1:"Рядом с пляжем Тинь Тхюи и деревней муралов",rs_2:"Развивающийся туристический район с высоким спросом на жильё",
+rs_3:"Подходит для жизни, инвестиций или строительства хоумстея",rs_4:"Советы владельца, который сам ведёт гостевой бизнес",
+rs_note:"Цена, площадь и юридический статус участков: свяжитесь с нами за актуальной информацией.",rs_cta:"Консультация по недвижимости",
+ss_title:"Trang Villa – хоумстей в Там Тхань",ss_sub:"Вилла с собственной ресепшн, зелёным садом и зоной питания, рядом с деревней муралов.",
+f1:"номера",f2:"двухместный, 2 кровати / ночь",f3:"до деревни муралов",f4:"пешком до пляжа",
+ss_h3:"Удобства",ss_1:"Сад и тихий открытый вид",ss_2:"Питание на вилле",
+ss_3:"Ресепшн поможет с турами и лодками",ss_4:"Пляж и муралы в пешей доступности",ss_cta:"Забронировать в Zalo",ss_ph:"Добавьте фото / видео Trang Villa",
+v_eye:"Посещение",v_title:"Как добраться и советы",
+v1_t:"Как добраться",v1_d:"Там Тхань находится в провинции Куангнам, добраться можно на машине или байке из Дананга и Хойана. Ищите «Tam Thanh Mural Village» на Google Maps.",
+v2_t:"Лучшее время",v2_d:"Раннее утро и вечер: мягкий свет для фото, прохлада и меньше людей на пляже.",
+v3_t:"Что взять",v3_d:"Шляпа, солнцезащитный крем, удобная обувь и камера. Спросите хозяина о времени лодок и ближайших кафе.",
+v_map:"Открыть Google Maps →",c_title:"Свяжитесь с владельцем напрямую",c_sub:"Позвоните или напишите в Zalo по вопросам недвижимости или бронирования Trang Villa.",c_call:"Позвонить",
+foot:"© 2026 Tam Thanh · Недвижимость и проживание · Деревня муралов Там Тхань, Куангнам"}
+};
+var els=document.querySelectorAll('[data-t]');
+els.forEach(function(e){T.vi[e.dataset.t]=e.innerHTML});
+function setLang(l){
+  document.documentElement.lang=l;
+  els.forEach(function(e){var v=T[l][e.dataset.t];if(v!==undefined)e.innerHTML=v});
+  document.querySelectorAll('.lang button').forEach(function(b){b.classList.toggle('on',b.dataset.l===l)});
+  try{localStorage.setItem('lang',l)}catch(x){}
+}
+document.querySelectorAll('.lang button').forEach(function(b){b.addEventListener('click',function(){setLang(b.dataset.l)})});
+var p=new URLSearchParams(location.search).get('lang'),s=null;
+try{s=localStorage.getItem('lang')}catch(x){}
+var m={vn:'vi',vi:'vi',en:'en',ru:'ru'};
+var init=m[p]||s;
+if(init&&init!=='vi')setLang(init);
+</script>
+</body>
+</html>
